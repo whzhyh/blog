@@ -1,7 +1,7 @@
 title: '用yum安装mongodb, nodejs'
 id: 19
 categories:
-  - Uncategorized
+  - linux
 date: 2014-01-19 16:56:57
 tags:
 ---
@@ -15,9 +15,9 @@ Centos里yum默认的源里面的包数量有限，版本更新不及时。
 我找到了mongodb官方的源，以下是安装过程：
 <pre>vi /etc/yum.repos.d/10gen.repo</pre>
 里面写入内容
-<pre>[10gen] 
-name=10gen Repository 
-baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64 
+<pre>[10gen]
+name=10gen Repository
+baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64
 gpgcheck=0</pre>
 之后运行
 <pre>yum install mongo-10gen-server mongo-10gen</pre>

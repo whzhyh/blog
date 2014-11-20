@@ -3,16 +3,16 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: reStart
+subtitle: 再出发
 description:
-author: John Doe
-email:
+author: Hongzheng Wang
+email: whzhyh@gmail.com
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://hongzheng.me
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
